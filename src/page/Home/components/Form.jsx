@@ -57,7 +57,7 @@ function Form() {
                         <Select
                             name="type"
                             options={["Root Choose Styles", "Remake Existing Software", "I have all the Assets Needed"]}
-                            value={"Root Choose Styles"}
+                            value={type || "Root Choose Styles"}
                             onChange={event => setType( event.value)}
                         />
                     </FormField>

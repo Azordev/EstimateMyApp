@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ProfileContainer = styled.div`
+export const Main = styled.main`
   max-width: 1010px;
   width: 100%;
   margin: 20px auto;
