@@ -9,7 +9,7 @@ const Home = () => {
     
     return (
         <ProfileContainer name='Profile Container 💼'>
-            <GaoW/>
+            
             <h1>Estimate My App</h1>
             <p>
                 Select the items below which best describe your app and the features you require.
