@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.js": "/EstimateMyApp/static/js/main.c0d16d4f.chunk.js",
-    "main.js.map": "/EstimateMyApp/static/js/main.c0d16d4f.chunk.js.map",
+    "main.js": "/EstimateMyApp/static/js/main.e7a0ac37.chunk.js",
+    "main.js.map": "/EstimateMyApp/static/js/main.e7a0ac37.chunk.js.map",
     "runtime~main.js": "/EstimateMyApp/static/js/runtime~main.14d9b16d.js",
     "runtime~main.js.map": "/EstimateMyApp/static/js/runtime~main.14d9b16d.js.map",
-    "static/js/2.494189c0.chunk.js": "/EstimateMyApp/static/js/2.494189c0.chunk.js",
-    "static/js/2.494189c0.chunk.js.map": "/EstimateMyApp/static/js/2.494189c0.chunk.js.map",
+    "static/js/2.c0e4db87.chunk.js": "/EstimateMyApp/static/js/2.c0e4db87.chunk.js",
+    "static/js/2.c0e4db87.chunk.js.map": "/EstimateMyApp/static/js/2.c0e4db87.chunk.js.map",
     "index.html": "/EstimateMyApp/index.html",
-    "precache-manifest.4d489a49f4082cff2af19ef75ca9fb70.js": "/EstimateMyApp/precache-manifest.4d489a49f4082cff2af19ef75ca9fb70.js",
-    "service-worker.js": "/EstimateMyApp/service-worker.js"
+    "precache-manifest.c1b6916647776300b7760f93a7efa770.js": "/EstimateMyApp/precache-manifest.c1b6916647776300b7760f93a7efa770.js",
+    "service-worker.js": "/EstimateMyApp/service-worker.js",
+    "static/media/automation.png": "/EstimateMyApp/static/media/automation.1f0418d1.png"
   }
 }
