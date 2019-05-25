@@ -15,7 +15,6 @@
     "grommet": "^2.7.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1",
     "styled-components": "^4.2.0"
   },
@@ -37,7 +36,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage" : "https://israel-laguan.github.io/EstimateMyApp/",
+  "homepage": "https://israel-laguan.github.io/EstimateMyApp/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Israel-Laguan/EstimateMyApp.git"

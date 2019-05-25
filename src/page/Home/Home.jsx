@@ -3,17 +3,20 @@ import { ProfileContainer, ProfileDetails, ProfileDetailsLeft, ProfileDetailsRig
 import Form from '../App/Form/Form';
 import { Accordion, AccordionPanel, Text, Box, Button } from 'grommet';
 import { Desktop, Android, Apple, Robot, Workshop } from 'grommet-icons';
+import Page from './Page/Page';
 
 const Home = () => {
     const [selectedColor, setSelectedColor] = useState('')
     
     return (
+        <Page>
+            
         <ProfileContainer name='Profile Container 💼'>
             
             <h1>Estimate My App</h1>
             <p>
                 Select the items below which best describe your app and the features you require.
-        </p>
+            </p>
             <Accordion animate>
                 <AccordionPanel label="💼 General information">
                     <Box direction="row" pad="small" background="light-2" justify="center">
@@ -85,6 +88,7 @@ const Home = () => {
                 </ProfileDetailsRight>
             </ProfileDetails>
         </ProfileContainer>
+        </Page>
     )
 }
 
