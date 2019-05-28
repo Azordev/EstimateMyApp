@@ -1,5 +1,7 @@
 import React from 'react'
 import * as S from '../style/component';
+import NavLinks from '../visual/NavLinks';
+
 
 function NavView ({logo, navLinks}) {
     return (
@@ -8,11 +10,13 @@ function NavView ({logo, navLinks}) {
             <S.Logo src={logo} />
             Estimate
         </S.LogoBox>
+        {/* <S.NavCenter /> */}
         <S.NavLinks>
-            {navLinks}
+           <NavLinks  />
         </S.NavLinks>
     </S.Nav>
     )
 }
 
 export default NavView
+
