@@ -3,34 +3,41 @@ import styled from 'styled-components'
 export const Nav = styled.nav`
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
-`;
-
-export const NavHeader = styled.div`
   max-width: 1010px;
-  padding: 26px 20px;
   width: 100%;
   display: flex;
   align-items: center;
   margin: 0 auto;
 `;
 
-export const NavLeft = styled.div`
-  width: 33.333%;
+export const LogoBox = styled.div`
+  width: 15%;
   text-align: left;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  &:hover {
+        background-color: #ddd;
+        color: black;
+    }
 `;
 
-export const NavCenter = styled.div`
-  width: 33.333%;
-  text-align: center;
+export const Logo = styled.img`
+    height: 30px;
 `;
 
-export const NavRight = styled.div`
+export const NavHeader = styled.div`
+  max-width: 1010px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+`;
+
+export const NavLinks = styled.div`
   width: 33.333%;
   text-align: right;
-
-  svg {
-    margin-right: 20px;
-  }
 `;
-
-export const MenuLink = styled.a``;
